@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minecraft:leather"
+  },
+  "result": {
+    "id": "minecraft:rabbit_hide"
+  },
+  "experience": 0.7,
+  "cookingtime": 200
+}
