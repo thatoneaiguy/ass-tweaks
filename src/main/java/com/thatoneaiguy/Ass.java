@@ -1,8 +1,7 @@
 package com.thatoneaiguy;
 
 import net.fabricmc.api.ModInitializer;
-
-import net.minecraft.entity.passive.VillagerEntity;
+import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -15,4 +14,8 @@ public class Ass implements ModInitializer {
 
 	@Override
 	public void onInitialize() {}
+
+	public static Identifier id(String path) {
+		return new Identifier(MODID, path);
+	}
 }
