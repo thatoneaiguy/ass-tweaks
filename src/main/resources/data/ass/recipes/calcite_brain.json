@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:dead_brain_coral_block"
+  },
+  "result": {
+    "id": "minecraft:calcite",
+    "count": 1
+  }
+}
